@@ -1,0 +1,140 @@
+/* Réglages divers */
+.aGauche {
+	text-align: left;
+}
+
+.auCentre {
+	text-align: center;
+	vertical-align: top;
+}
+
+.aDroite {
+	text-align: right;
+}
+
+.enCyan {
+	background-color: cyan;
+}
+
+.td_15px {
+	width: 15px;
+}
+
+.td_60px {
+	width: 60px;
+}
+
+/* fin Réglages divers */
+
+
+/* Premier tableau */
+#premierTableau {
+	width: 90%;
+
+	margin: auto;
+}
+
+#premierTableau table {
+	border: thin black solid;
+	width: 100%;
+}
+
+#premierTableau td,
+#premierTableau th {
+	border: thin black solid;
+}
+
+/* fin Premier tableau */
+
+
+/* Deuxième tableau, à droite */
+#deuxiemeTableau_aDroite {
+	width: 25%;
+	float: right;
+}
+
+#deuxiemeTableau_aDroite table {
+	background-color: magenta;
+	border: thin black solid;
+	width: 100%;
+}
+
+#deuxiemeTableau_aDroite td,
+#deuxiemeTableau_aDroite th {
+	border: thin black solid;
+}
+
+#deuxiemeTableau_aDroite tr {
+	text-align: center;
+}
+
+/* fin Deuxième tableau, à droite */
+
+
+/* Deuxième tableau, à gauche */
+#deuxiemeTableau_aGauche {
+	width: 25%;
+	float: left;
+}
+
+#deuxiemeTableau_aGauche table {
+	border: thin black solid;
+	width: 100%;
+}
+
+#deuxiemeTableau_aGauche td,
+#deuxiemeTableau_aGauche th {
+	border: thin black solid;
+}
+
+#deuxiemeTableau_aGauche tr {
+	text-align: center;
+}
+
+/* fin Deuxième tableau, à gauche */
+
+
+/* Deuxième tableau, au centre */
+#deuxiemeTableau_auCentre {
+	width: 25%;
+	margin: auto;
+}
+
+#deuxiemeTableau_auCentre table {
+	border: thin black solid;
+	width: 100%;
+}
+
+#deuxiemeTableau_auCentre td,
+#deuxiemeTableau_auCentre th {
+	border: thin black solid;
+}
+
+#deuxiemeTableau_auCentre tr {
+	text-align: center;
+}
+
+/* fin Deuxième tableau au centre */
+
+
+/* Troisième tableau */
+#troisiemeTableau {
+	width: 25%;
+	margin: auto;
+}
+
+#troisiemeTableau table {
+	border: 6px black outset;
+	width: 100%;
+}
+
+#troisiemeTableau td,
+#troisiemeTableau th {
+	border: thin black solid;
+}
+
+#troisiemeTableau tr {
+	vertical-align: top;
+}
+
+/* fin Troisième tableau */
