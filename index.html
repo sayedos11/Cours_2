@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="style.css" />
+	<title>HTML 5 et CSS 3: Exercice 3</title>
+</head>
+
+<body>
+	<h1>Les tableaux</h1>
+	<div id="premierTableau">
+		<table>
+			<caption>
+				<h2>Légende du tableau</h2>
+			</caption>
+			<thead>
+				<tr>
+					<th>Titre 1</th>
+					<th>Titre 2</th>
+					<th>Titre 3</th>
+				</tr>
+			</thead>
+			<tfoot>
+				<tr>
+					<th>Titre 1</th>
+					<th>Titre 2</th>
+					<th>Titre 3</th>
+				</tr>
+			</tfoot>
+			<tbody>
+				<tr>
+					<td>Cellule simple</td>
+					<td>Cellule simple</td>
+					<td>Cellule simple</td>
+				</tr>
+				<tr>
+					<td colspan="2" class="aDroite">Deux colonnes assemblées.</td>
+					<td class="enCyan">Cellule simple</td>
+				</tr>
+				<tr>
+					<td>Cellule simple</td>
+					<td>Cellule simple</td>
+					<td rowspan="2">Deux lignes assemblées.</td>
+				</tr>
+				<tr>
+					<td>Cellule simple</td>
+					<td>Cellule simple</td>
+				</tr>
+				<tr>
+					<td>Cellule simple</td>
+					<td colspan="2" rowspan="2" class="auCentre">Deux colonnes et deux lignes assemblées.</td>
+				</tr>
+				<tr>
+					<td>Cellule simple</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+
+	<br />
+	<br />
+
+	<div id="deuxiemeTableau_aDroite">
+		<table>
+			<thead>
+				<tr>
+					<th colspan="2" class="aDroite">DROIT</th>
+				</tr>
+			</thead>
+			<tr>
+				<td>(1, 1)</td>
+				<td>(1, 2)</td>
+			</tr>
+			<tr>
+				<td>(2, 1)</td>
+				<td>(2, 2)</td>
+			</tr>
+		</table>
+	</div>
+
+	<div id="deuxiemeTableau_aGauche">
+		<table>
+			<thead>
+				<tr>
+					<th colspan="2" class="aGauche">GAUCHE</th>
+				</tr>
+			</thead>
+			<tr>
+				<td>(1, 1)</td>
+				<td>(1, 2)</td>
+			</tr>
+			<tr>
+				<td>(2, 1)</td>
+				<td>(2, 2)</td>
+			</tr>
+		</table>
+	</div>
+
+	<div id="deuxiemeTableau_auCentre">
+		<table>
+			<thead>
+				<tr>
+					<th colspan="2" align="center">CENTRE</th>
+				</tr>
+			</thead>
+			<tr>
+				<td>(1, 1)</td>
+				<td>(1, 2)</td>
+			</tr>
+			<tr>
+				<td>(2, 1)</td>
+				<td>(2, 2)</td>
+			</tr>
+		</table>
+	</div>
+
+	<br />
+	<br />
+
+	<div id="troisiemeTableau">
+		<table>
+			<tr>
+				<td colspan="3">Ce texte s'&eacute;tend sur trois colonnes.</td>
+			</tr>
+			<tr>
+				<td class="td_15px">1 2 3 4 5 6 7 8</td>
+				<td class="td_60px">Position par d&eacute;faut Balise couleur</td>
+				<td>Celulle du texte principal.</td>
+			</tr>
+		</table>
+	</div>
+</body>
+
+</html>
